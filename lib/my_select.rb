@@ -15,4 +15,10 @@ def my_select(collection)
   new_collection 
 end
 
-
+my_select([]) do |x|
+  if x == x
+    true
+  else x != x
+    false
+  end
+end
