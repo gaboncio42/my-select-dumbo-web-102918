@@ -16,9 +16,8 @@ def my_select(collection)
 end
 
 
-my_select([]) do |x|
-  even_numbers = []
-  if x.even? == true
-    even_numbers << [i]
+my_select([]) do |yield|
+  if yield == true
+    return collection[i]
   end
 end
