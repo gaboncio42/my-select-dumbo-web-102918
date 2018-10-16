@@ -9,5 +9,10 @@ def my_select(collection)
    end
    
  else
-   
+   "This block shoud not run!"
+  end
+  
+  new_collection 
 end
+
+
