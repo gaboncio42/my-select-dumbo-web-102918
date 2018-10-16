@@ -16,8 +16,8 @@ def my_select(collection)
 end
 
 
-my_select([]) do |yield|
-  if yield == true
+my_select([]) do |x|
+  if x == true
     return collection[i]
   end
 end
