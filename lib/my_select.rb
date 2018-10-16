@@ -15,9 +15,9 @@ def my_select(collection)
   new_collection 
 end
 
-my_select([1, 2, 3, 4, 5]) do |x|
+my_select(nums) do |x|
   even_numbers = []
   if x.even? == true
-    even_numbers << x.even?
+    even_numbers << nums[i]
   end
 end
