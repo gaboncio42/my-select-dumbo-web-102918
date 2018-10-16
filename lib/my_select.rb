@@ -16,9 +16,9 @@ def my_select(collection)
 end
 
 my_select([1, 2, 3, 4, 5]) do |x|
-  if x == x
+  if x % 2 == 0
     true
-  else x != x
+  else
     false
   end
 end
