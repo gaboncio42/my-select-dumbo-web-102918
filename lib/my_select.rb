@@ -19,6 +19,6 @@ end
 my_select([]) do |x|
   even_numbers = []
   if x.even? == true
-    even_numbers << nums[i]
+    even_numbers << [i]
   end
 end
